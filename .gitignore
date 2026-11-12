@@ -1,0 +1,19 @@
+# 秘密情報（API キー）
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# 個人データ（生成履歴。自分が書いた文章が入る）
+data/
+
+# 仮想環境・キャッシュ
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# macOS / エディタ
+.DS_Store
+.vscode/
+.idea/
